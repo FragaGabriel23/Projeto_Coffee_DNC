@@ -1,0 +1,75 @@
+:root {
+    --cor1: #2A3342;
+    --fontInter: 'Inter';
+    --fontPoppins: 'Poppins';
+    --fontSegoe: 'Segoe UI'
+}
+
+.cor1 {
+    color: var(--cor1) !important;
+}
+
+.fontInt {
+    font-family: var(--fontInter);
+}
+
+.fontPopp {
+    font-family: var(--fontPoppins);
+}
+
+.fontSeg {
+    font-family: var(--fontSegoe);
+}
+
+.modalContent {
+    background: #ffffff;
+    margin: 4% auto;
+    padding: 3rem;
+    border: 0;
+    width: 50%;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.Modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background: rgba(223, 223, 223, 0.9);
+}
+
+.modalClose{
+    display: flex;
+    justify-content: end;
+}
+
+.modalMain {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.modalMain h1 {
+    font-family:var(--fontInter);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #000000;
+}
+
+.modalMain h2 {
+    font-family: var(--fontInter);
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 1.5rem;
+    color: #000000;
+    margin-top: 5%;
+}
